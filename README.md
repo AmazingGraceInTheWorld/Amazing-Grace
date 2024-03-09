@@ -1,4 +1,3 @@
-**Amazing Grace**  
 _John Newton, 1779_
 
 
