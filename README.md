@@ -1,4 +1,4 @@
-_John Newton, 1779_
+John Newton, 1779
 
 
 Amazing grace! how sweet the sound,  
