@@ -1,0 +1,11 @@
+
+collections:
+  jump:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "jump"
+    values:
+      layout: "s"
