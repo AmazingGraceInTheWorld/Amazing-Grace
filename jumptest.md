@@ -1,4 +1,5 @@
 ---
 layout: s
-go: https://agt.jwint.net/Amazing%20Grace
+go: https://www.cnn.com/
+info: Jump to other page test
 ---
