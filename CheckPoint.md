@@ -8,9 +8,9 @@
 {% assign pp[forloop.index0].dd = d %}
 {% endfor %}
 
-{% assign ppp = pp | sort_natural: "dd" %}
+<!---{% assign ppp = pp | sort_natural: "dd" %}-->
 
-{% for p in ppp %} [{{ p.dd }} __ ]({{ p.url }}){% endfor %}
+{% for p in pp %} [{{ p.dd }} __ ]({{ p.url }}){% endfor %}
 
 Yes! 
 
