@@ -1,4 +1,11 @@
 
+{% for p in site.pages %} 
+{% if p.info  %}{% assign d = p.info %}{% else %}{% if p.title %}{% assign d = p.title %}{% else %}{% assign d = p.name %}{% endif %}{% endif %}
+[{{ d }},]({{ p.url }})
+{% endfor %}
+
+
+<!---
 {% assign pp = site.pages | sort_natural: "info" %}
 
 {% assign p.dd = "NO" %}
@@ -10,7 +17,7 @@
 
 {% endfor %}
 
-<!---{% assign ppp = pp | sort_natural: "dd" %}-->
+{% assign ppp = pp | sort_natural: "dd" %}
 
 {% for p in pp %} [{{ p.dd }} __ ]({{ p.url }}){% endfor %}
 
@@ -19,6 +26,9 @@ Yes!
 Now {{ site.time | date: "%m-%d %H:%M:%S" }}
 
 
-<!---{% if p.info  %}{{ p.info }}{% else %}{% if p.title %}{{ p.title }}{% else %}{{ p.name }}{% endif %}{% endif %} >
+{% if p.info  %}{{ p.info }}{% else %}{% if p.title %}{{ p.title }}{% else %}{{ p.name }}{% endif %}{% endif %} 
+
+-->
+
 
 
