@@ -30,7 +30,7 @@ table, tr, th ,td ,tr:nth-child(even),tr:nth-child(odd){
 }
 </style>
 
-<title>{% if page.title %}title{% else %}name{% endif %}</title>
+<title>{% if page.title %}{{ page.title }}{% else %}{{ page.name }}{% endif %}</title>
 </head>
 
 <body>
