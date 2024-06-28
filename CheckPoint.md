@@ -1,6 +1,8 @@
 
 {% assign pp = site.pages | sort_natural: "info" %}
 
+{% assign p.dd = "NO" %}
+
 {% for p in pp %}
 {% if p.info  %}{% assign d = p.info %}{% else %}{% if p.title %}{% assign d = p.title %}{% else %}{% assign d = p.name %}{% endif %}{% endif %}
 {% assign p.dd = d %}
