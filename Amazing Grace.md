@@ -1,5 +1,6 @@
+Amazing grace! 
+===================
 _John Newton, 1779_
-
 
 Amazing grace! how sweet the sound,  
 That saved a wretch like me!  
