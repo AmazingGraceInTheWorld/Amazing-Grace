@@ -6,7 +6,7 @@
 {% for p in pp %}
 {% if p.info  %}{% assign d = p.info %}{% else %}{% if p.title %}{% assign d = p.title %}{% else %}{% assign d = p.name %}{% endif %}{% endif %}
 {% assign pp[forloop.index0].dd = d %}
-{{ d }}
+{{ d }}, {{ pp[forloop.index0].dd }}
 
 {% endfor %}
 
