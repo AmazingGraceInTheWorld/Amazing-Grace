@@ -8,8 +8,13 @@
 
 {% assign ppp = pp | sort_natural: "dd" %}
 
-{% for p in ppp %} [{% if p.info  %}{{ p.info }}{% else %}{% if p.title %}{{ p.title }}{% else %}{{ p.name }}{% endif %}{% endif %}]({{ p.url }}){% endfor %}
+{% for p in ppp %} [{{ p.dd }}]({{ p.url }}){% endfor %}
 
 Yes! 
 
 Now {{ site.time | date: "%m-%d %H:%M:%S" }}
+
+
+<!---{% if p.info  %}{{ p.info }}{% else %}{% if p.title %}{{ p.title }}{% else %}{{ p.name }}{% endif %}{% endif %} >
+
+
