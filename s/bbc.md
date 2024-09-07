@@ -1,5 +1,5 @@
 ---
 layout: s
-go: https://agt.jwint.net/
+go: https://www.bbc.com/
 info: CNN
 ---
